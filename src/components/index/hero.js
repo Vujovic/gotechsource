@@ -53,6 +53,7 @@ const Hero = styled.section`
       background-color: var(--color-primary);
       border-radius: var(--button-radius);
       color: #fff;
+      font-size: 18px;
       padding: 10px 20px;
       align-self: flex-start;
     }
