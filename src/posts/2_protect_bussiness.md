@@ -2,7 +2,7 @@
 slug: '/protect-your-business-when-buying-goods-from-China'
 title: 'How to protect your business when you are buying goods from China?'
 date: '2017-05-24'
-featuredImage: '../images/blog/1_thumbnail.jpg'
+featuredImage: '../images/blog/2_thumbnail.jpg'
 ---
 
 When part of your business is importing goods manufactured in China, it is crucial to ensure quality control. Even the best factories with an excellent organization are not always able to produce a perfect series of products.
@@ -24,6 +24,8 @@ Of course, you can decide to set up your own quality control team. This strategy
 As an alternative, there is a wide range of renowned companies that provide quality control services that are actually representing your company in China. The sole purpose of the company is to protect you and your financial interests and check the goods based on your instructions. They have a neutral relationship with suppliers and traders, in fact, their interest is to support only one side – buyers, because buyers are their clients.
 
 The prices of services of quality control companies vary but in any case, they are much lower and more cost-effective than taking the risk of delivery goods without any inspection.
+
+![Writing notes](../images/blog/2_writing.jpg)
 
 ## What should be included in quality control?
 

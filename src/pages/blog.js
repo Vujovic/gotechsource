@@ -65,7 +65,7 @@ const Cards = styled.section`
     max-width: 960px;
     padding: 0 30px;
     .card {
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
       margin: 20px;
       padding: 20px 40px;
       p {
