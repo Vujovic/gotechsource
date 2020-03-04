@@ -48,6 +48,26 @@ export default () => {
     .reversed {
       flex-direction: row-reverse;
     }
+    @media screen and (max-width: 1280px) {
+      .intro {
+        .gatsby-image-wrapper {
+          width: 30%;
+        }
+      }
+    }
+    @media screen and (max-width: 968px) {
+      .intro {
+        flex-direction: column-reverse;
+        .gatsby-image-wrapper {
+          min-width: 60%;
+        }
+        p {
+          margin-top: 20px;
+          max-width: 100%;
+          padding: 0 20px;
+        }
+      }
+    }
   `
 
   return (
