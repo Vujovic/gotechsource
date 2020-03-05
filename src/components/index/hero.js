@@ -58,4 +58,15 @@ const Hero = styled.section`
       align-self: flex-start;
     }
   }
+  @media screen and (max-width: 1280px) {
+    .text {
+      margin: 0 50px;
+      h1 {
+        font-size: 32px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
 `

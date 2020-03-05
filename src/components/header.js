@@ -49,4 +49,15 @@ const Header = styled.header`
       padding: 10px 20px;
     }
   }
+  @media screen and (max-width: 1366px) {
+    padding: 0 80px;
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 0 10px;
+  }
+  @media screen and (max-width: 868px) {
+    nav {
+      display: none; /* Burger menu */
+    }
+  }
 `

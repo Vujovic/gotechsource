@@ -55,7 +55,7 @@ export default () => {
         }
       }
     }
-    @media screen and (max-width: 968px) {
+    @media screen and (max-width: 868px) {
       .intro {
         flex-direction: column-reverse;
         .gatsby-image-wrapper {
