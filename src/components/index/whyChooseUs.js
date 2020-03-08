@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import ElectronicManufacturing from '../../assets/whyChooseUs/elManufacturing.svg'
 import LocalProfessionals from '../../assets/whyChooseUs/localProfessionals.svg'
 import Fast from '../../assets/whyChooseUs/fast.svg'
-
+import Communicate from '../../assets/whyChooseUs/communicate.svg'
 import Pin from '../../assets/whyChooseUs/pin.svg'
 
 export default () => (
@@ -24,7 +24,7 @@ export default () => (
         <h3>Within 48 h, we will find the best offer</h3>
       </div>
       <div className="card">
-        <ElectronicManufacturing />
+        <Communicate />
         <h3>We speak your language and understand your needs</h3>
       </div>
       <div className="card">
