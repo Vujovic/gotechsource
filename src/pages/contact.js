@@ -73,6 +73,7 @@ export default () => (
           min="1"
           placeholder="Target price..."
         />
+        <input type="submit" className="button" value="Send message" />
       </form>
     </Contact>
   </Layout>
@@ -104,6 +105,16 @@ const Contact = styled.section`
       width: 100%;
       ::placeholder {
         color: #b9b9b9;
+      }
+    }
+    .button {
+      background-color: var(--color-primary);
+      color: #fff;
+      cursor: pointer;
+      font-weight: 900;
+      margin-top: 25px;
+      :hover {
+        opacity: 0.7;
       }
     }
   }
