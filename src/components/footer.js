@@ -52,8 +52,14 @@ const Footer = styled.footer`
   align-items: center;
   justify-content: space-between;
   height: 75px;
-  padding: 100px 250px;
+  padding: 100px 150px;
+  .logo,
+  .info,
+  .links {
+    flex: 1;
+  }
   .logo {
+    text-align: center;
     svg {
       height: 35px;
     }
@@ -64,10 +70,10 @@ const Footer = styled.footer`
   .links {
     .icons {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       svg {
         height: 25px;
-        margin: 5px;
+        margin: 15px;
       }
     }
   }

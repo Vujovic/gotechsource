@@ -45,7 +45,7 @@ const Hero = styled.section`
       max-width: 700px;
     }
     h2 {
-      font-size: 32px;
+      font-size: 24px;
       margin-bottom: 40px;
       max-width: 900px;
     }
@@ -63,9 +63,6 @@ const Hero = styled.section`
       margin: 0 50px;
       h1 {
         font-size: 32px;
-      }
-      h2 {
-        font-size: 24px;
       }
     }
   }
