@@ -65,14 +65,21 @@ export default () => (
           min="1"
           placeholder="Quantity..."
         />
-        <label htmlFor="target-price">Target price</label>
-        <input
-          type="number"
-          name="target-price"
-          id="target-price"
-          min="1"
-          placeholder="Target price..."
-        />
+        <div className="price">
+          <label htmlFor="target-price">Target price</label>
+          <select name="currency" id="currency">
+            <option value="RMB">¥</option>
+            <option value="USD">$</option>
+            <option value="EUR">€</option>
+          </select>
+          <input
+            type="number"
+            name="target-price"
+            id="target-price"
+            min="1"
+            placeholder="Target price..."
+          />
+        </div>
         <input type="submit" className="button" value="Send message" />
       </form>
     </Contact>
@@ -105,6 +112,19 @@ const Contact = styled.section`
       width: 100%;
       ::placeholder {
         color: #b9b9b9;
+      }
+    }
+    .price {
+      input {
+        width: calc(100% - 70px);
+      }
+      select {
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        margin-right: 20px;
+        padding: 20px 0 20px 13px;
+        width: 50px;
       }
     }
     .button {
