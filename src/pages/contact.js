@@ -119,9 +119,11 @@ const Contact = styled.section`
         width: calc(100% - 70px);
       }
       select {
+        background-color: #fff;
         border: none;
         border-radius: 5px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        color: #434343;
         margin-right: 20px;
         padding: 20px 0 20px 13px;
         width: 50px;

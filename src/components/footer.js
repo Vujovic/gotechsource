@@ -74,6 +74,10 @@ const Footer = styled.footer`
       svg {
         height: 25px;
         margin: 15px;
+        transition: all 0.3s ease;
+        :hover {
+          transform: scale(1.2);
+        }
       }
     }
   }
