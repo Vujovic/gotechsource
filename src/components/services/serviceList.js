@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Check from '../../assets/check.svg'
 import Vendor from '../../assets/services/vendor.svg'
 import Inspection from '../../assets/services/inspection.svg'
-import Launch from '../../assets/services/Launch.svg'
+import Launch from '../../assets/services/launch.svg'
 
 export default () => (
   <ServiceList>
