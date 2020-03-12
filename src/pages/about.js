@@ -12,14 +12,14 @@ export default () => {
       about: file(relativePath: { eq: "about.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }
       shenzhen: file(relativePath: { eq: "shenzhen.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }
