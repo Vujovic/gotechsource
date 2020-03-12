@@ -54,6 +54,7 @@ const fetchPosts = graphql`
 `
 
 const Cards = styled.section`
+  min-height: calc(100vh - 327px);
   h1 {
     margin-top: 50px;
     text-align: center;
@@ -80,6 +81,11 @@ const Cards = styled.section`
   @media screen and (max-width: 768px) {
     .cards {
       flex-direction: column;
+      .card {
+        h2 {
+          font-size: 18px;
+        }
+      }
     }
   }
 `
