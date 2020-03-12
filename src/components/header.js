@@ -3,22 +3,49 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import Logo from '../assets/logo.svg'
+import '../assets/hamburgerMenu.css'
 
-export default () => (
-  <Header>
-    <Link className="logo" to="/">
-      <Logo />
-    </Link>
-    <nav>
-      <Link to="/about">About</Link>
-      <Link to="/services">Services</Link>
-      <Link to="/blog">Blog</Link>
-      <Link className="accent" to="/contact">
-        Contact
-      </Link>
-    </nav>
-  </Header>
-)
+export default class HeaderComponent extends React.Component {
+  state = {
+    isMenuOpen: false,
+  }
+
+  handleMenu = () => this.setState({ isMenuOpen: !this.state.isMenuOpen })
+
+  render() {
+    return (
+      <Header>
+        <Link className="logo" to="/">
+          <Logo />
+        </Link>
+        <div className="button">
+          <button
+            onClick={this.handleMenu}
+            type="button"
+            aria-label="Menu"
+            className={
+              this.state.isMenuOpen
+                ? 'hamburger hamburger--spin is-active'
+                : 'hamburger hamburger--spin'
+            }
+          >
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+        <nav className={this.state.isMenuOpen ? 'menu' : 'menu hidden'}>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/blog">Blog</Link>
+          <Link className="accent" to="/contact">
+            Contact
+          </Link>
+        </nav>
+      </Header>
+    )
+  }
+}
 
 const Header = styled.header`
   background-color: #fff;
@@ -33,7 +60,7 @@ const Header = styled.header`
       height: 35px;
     }
   }
-  nav {
+  .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,6 +76,9 @@ const Header = styled.header`
       padding: 10px 20px;
     }
   }
+  .button {
+    display: none;
+  }
   @media screen and (max-width: 1366px) {
     padding: 0 80px;
   }
@@ -56,8 +86,29 @@ const Header = styled.header`
     padding: 0 10px;
   }
   @media screen and (max-width: 868px) {
-    nav {
-      display: none; /* Burger menu */
+    .logo {
+      svg {
+        height: 30px;
+        padding-left: 15px;
+      }
+    }
+    .menu {
+      background-color: #fff;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: calc(100vh - 75px);
+      position: absolute;
+      top: 75px;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+    .button {
+      display: inline;
+    }
+
+    .hidden {
+      display: none;
     }
   }
 `
