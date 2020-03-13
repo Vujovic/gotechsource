@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `GoTechSource`,
+    siteUrl: `https://gotechsource.netlify.com`,
     description: `Keep costs down and reliability up by designing your network to minimize product handling.`,
     author: `njegos.dev`,
   },
