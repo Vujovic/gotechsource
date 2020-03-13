@@ -24,6 +24,7 @@ export default () => (
           href="https://www.facebook.com/gotechsource"
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Facebook page"
         >
           <Facebook />
         </a>
@@ -31,6 +32,7 @@ export default () => (
           href="https://twitter.com/Dvule88"
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Twitter profile"
         >
           <Twitter />
         </a>
@@ -38,6 +40,7 @@ export default () => (
           href="https://www.linkedin.com/company-beta/13314357"
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="LinkedIn profile"
         >
           <LinkedIn />
         </a>

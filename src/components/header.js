@@ -15,9 +15,11 @@ export default class HeaderComponent extends React.Component {
   render() {
     return (
       <Header>
-        <Link className="logo" to="/">
-          <Logo />
-        </Link>
+        <div className="logo">
+          <Link to="/" aria-label="Go to homepage">
+            <Logo />
+          </Link>
+        </div>
         <div className="button">
           <button
             onClick={this.handleMenu}
