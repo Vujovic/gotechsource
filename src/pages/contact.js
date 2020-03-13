@@ -11,7 +11,7 @@ export default () => (
       <h1>Contact us</h1>
       <form
         name="contact"
-        action="success"
+        action="/"
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"

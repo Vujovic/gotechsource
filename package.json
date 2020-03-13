@@ -2,7 +2,7 @@
   "name": "go-tech-source",
   "private": true,
   "description": "Website for a supply chain company.",
-  "version": "0.9.0",
+  "version": "0.9.5",
   "author": "Njegos Vujovic <https://njegos.dev>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
