@@ -9,7 +9,14 @@ export default () => (
     <SEO title="Contact us" />
     <Contact>
       <h1>Contact us</h1>
-      <form name="contact" action="success" method="POST">
+      <form
+        name="contact"
+        action="success"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="bot-field" />
         <label htmlFor="company-name">
           Company name <span className="red">*</span>
         </label>

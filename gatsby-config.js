@@ -5,6 +5,10 @@ module.exports = {
     author: `njegos.dev`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cache`,
+    'gatsby-plugin-robots-txt',
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
