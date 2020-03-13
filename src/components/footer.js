@@ -9,7 +9,7 @@ import LinkedIn from '../assets/linkedin.svg'
 
 export default () => (
   <Footer>
-    <Link className="logo" to="/">
+    <Link className="logo" to="/" aria-label="Go to homepage">
       <Logo />
     </Link>
     <div className="info">
