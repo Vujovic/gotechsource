@@ -63,10 +63,13 @@ const WhyChooseUs = styled.section`
     .cards {
       .card {
         svg {
+          height: 100px;
           max-width: 100px;
         }
         h3 {
           max-width: 200px;
+          font-size: 14px;
+          font-weight: 400;
         }
       }
     }

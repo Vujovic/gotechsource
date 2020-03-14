@@ -39,7 +39,8 @@ export default () => (
         <Inspection className="icon" />
         <h2>Step 4</h2>
         <p>
-          If it is necessary on your request we will do pre-shipment inspection.
+          If it is necessary on your request we will do a pre-shipment
+          inspection.
         </p>
       </div>
     </div>
