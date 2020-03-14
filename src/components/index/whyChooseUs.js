@@ -59,4 +59,16 @@ const WhyChooseUs = styled.section`
       }
     }
   }
+  @media screen and (max-width: 1366px) and (min-width: 1280px) {
+    .cards {
+      .card {
+        svg {
+          max-width: 100px;
+        }
+        h3 {
+          max-width: 200px;
+        }
+      }
+    }
+  }
 `
